@@ -17,7 +17,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API_BASE_URL ||'https://car-management-backend-an95.onrender.com' ,
+  baseURL: process.env.REACT_APP_API_BASE_URL ||'hhttp://localhost:5000/api' ,
   withCredentials: true, // This ensures cookies are sent with each request
 });
 
